@@ -1,4 +1,6 @@
 package U1BigO;
+//冒泡排序： 先0～1范围上排序，交换；再1～2范围上排序，交换。。。
+//满足稳定性：相等值不换位置
 
 public class bubbleSort {
     public static void main(String[] args) {

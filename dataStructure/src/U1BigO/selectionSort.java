@@ -1,7 +1,8 @@
 package U1BigO;
 
 import java.util.Arrays;
-
+//选择排序： 从0~N-1 范围上选择最小的数放到0位置上； 从 1~N-1 选择最小的数放到1位置上。。。
+//不稳定
 public class selectionSort {
     public static void main(String[] args) {
         int[] array = {14, 544, 3, 9, 8};

@@ -1,7 +1,8 @@
 package U2;
 
 public class mergeSort {
-
+//归并排序：取中点，左边排序，右边排序，再合并
+//满足稳定性：相等时先排左边的
 
     public static void main(String[] args) {
         int[] array = {34, 4, 67, 35, 76, 18};

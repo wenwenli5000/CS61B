@@ -1,6 +1,8 @@
 package U3;
 
 import java.net.BindException;
+//堆排序：1）把数组变成大根堆。。
+//不满足稳定性
 
 public class heapSort {
     public static void heapSort (int[] arr) {

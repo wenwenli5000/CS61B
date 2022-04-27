@@ -1,6 +1,7 @@
 package U1BigO;
 //插入排序：倒序冒泡排序
-
+//插入排序：0～0 范围有序；0～1 范围有序，交换；0～2范围有序。。
+//满足稳定性：相等值不换位置
 public class insertSort {
     public static void main(String[] args) {
         int[] array = {34, 4, 67, 35, 76, 18};
